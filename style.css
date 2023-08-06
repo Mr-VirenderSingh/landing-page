@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Bebas Neue", sans-serif;
+  font-family: "REM", sans-serif;
+}
+
+/* Navigation bar */
+
+#logo {
+  font-size: 24px;
+  color: #f9faf8;
+  font-weight: bolder;
+}
+
+header {
+  background-color: #1f2937;
+}
+
+.header_link a {
+  font-size: 18px;
+  color: #f9faf8;
+}
+
+.sideMargin {
+  margin: 0px 12% 0px 12%;
+}
+
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+}
+
+#navlist {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+  font-size: 18px;
+}
+
+#navbar #navlist li a {
+  text-decoration: none;
+}
+
+/* maintext, subtext and button. */
+
+.maintext {
+  font-size: 48px;
+  font-weight: bolder;
+  color: #f9faf8;
+}
+
+.subtext {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.button {
+  background-color: #3882f6;
+  font-weight: bold;
+  font-size: 18px;
+  color: #f9faf8;
+  width: 110px;
+  height: 35px;
+  border-radius: 8px;
+  border-style: none;
+  margin-top: 15px;
+}
+
+.overview {
+  display: flex;
+  height: 450px;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.leftside {
+  flex-grow: 1;
+  width: 49%;
+}
+
+.rightside {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 45%;
+  height: 225px;
+  /* background-color: rgba(211, 211, 211, 0.493); */
+}
+
+.rightside > img {
+  height: 225px;
+  width: 400px;
+}
+
+/* main section */
+
+
+/* .information section */
+
+.information > div > h2{
+  font-size: 34px;
+  height: 150px;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.boxes {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  /* align-items: center; */
+  height: 250px;
+}
+
+.boxes > div > img {
+  border: 4px solid #3882f6;
+  border-radius: 6px;
+  width: 162px;
+  height: 164px;
+}
+
+/* quote section */
+
+.quotes{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 250px;
+  background-color: #e5e7eb;
+}
+
+.quotes > p{
+  display: block;
+  font-size: 36px;
+  font-style: italic;
+  color: #1f2937;
+  
+}
+
+.quotes > h4{
+  align-self: flex-end;
+  width: 300px;
+}
