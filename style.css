@@ -148,3 +148,50 @@ header {
   align-self: flex-end;
   width: 300px;
 }
+
+
+/* actionseciton */
+
+
+.actionsection{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 350px;
+}
+
+
+.actionsection > .actionsection2{
+  width: 80%;
+  height: 150px;
+  background-color: #3882f6;
+  border-radius: 6px;
+}
+
+.actionsection2 >  div >button{
+  height: 36px;
+  width: 130px;
+  background-color: #3882f6;
+  border: 2px solid #f9faf8;
+  /* border-color: #f9faf8; */
+  border-radius: 8px;
+  font-size: 1.2rem;
+  color:#f9faf8;
+}
+
+.actionsection2{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 2rem;
+}
+
+.action{
+  color: #f9faf8;
+  font-size: 1.5rem;
+}
+
+.para{
+  color: #e5e7eb;
+  font-size: 1.1rem;
+}
